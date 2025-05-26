@@ -14,10 +14,10 @@
 **下面的三个任务基于“世界幸福指数数据集”，各字段含义见文档说明。**
 
 ## 任务三：基于SQL的多元线性回归
-定义如下幸福指数数据表happyness(Overall_rank, Country, Score, GDP_per_capita, Social_support, Healthy_life_expectancy , Freedom_to_make_life_choices Generosity, Perceptions_of_corruption)。请以score作为因变量，GDP_per_capita, Social_support,   Healthy_life_expectancy , Freedom_to_make_life_choices, Generosity, Perceptions_of_corruptio作为自变量，用SQL完成多元线性回归算法。
+定义如下幸福指数数据表`happyness(Overall_rank, Country, Score, GDP_per_capita, Social_support, Healthy_life_expectancy , Freedom_to_make_life_choices Generosity, Perceptions_of_corruption)`。请以`score`作为因变量，`GDP_per_capita`, `Social_support`,   `Healthy_life_expectancy`, `Freedom_to_make_life_choices`, `Generosity`, `Perceptions_of_corruption`作为自变量，用SQL完成多元线性回归算法。
 
 ## 任务四：基于SQL的决策树
-定义如下幸福指数数据表happyness(Overall_rank, Country, Score, GDP_per_capita, Social_support, Healthy_life_expectancy , Freedom_to_make_life_choices,  Generosity, Perceptions_of_corruption)，score被划分为high, middle, low三个类别（这个请自己选择划分区间）。请以score作为分类属性，用SQL完成决策树分类算法。
+定义如下幸福指数数据表`happyness(Overall_rank, Country, Score, GDP_per_capita, Social_support, Healthy_life_expectancy , Freedom_to_make_life_choices,  Generosity, Perceptions_of_corruption)`，`score`被划分为high, middle, low三个类别（这个请自己选择划分区间）。请以`score`作为分类属性，用SQL完成决策树分类算法。
 
 ## 任务五：基于SQL的聚类
-定义如下幸福指数数据表happyness(Overall_rank,	Country, Score,	GDP_per_capita,	Social_support, Healthy_life_expectancy	, Freedom_to_make_life_choices	, Generosity, Perceptions_of_corruption)。请选择属性 Score,	GDP_per_capita,	Social_support, Healthy_life_expectancy	, Freedom_to_make_life_choices	, Generosity, Perceptions_of_corruption，对它们进行归一化处理，并用归一化之后的结果来计算样本之间的距离，用SQL完成k-means算法，指定k=3。
+定义如下幸福指数数据表`happyness(Overall_rank, Country, Score, GDP_per_capita,	Social_support, Healthy_life_expectancy, Freedom_to_make_life_choices	, Generosity, Perceptions_of_corruption)`。请选择属性`Score`, `GDP_per_capita`, `Social_support`, `Healthy_life_expectancy`, `Freedom_to_make_life_choices`, `Generosity`, `Perceptions_of_corruption`，对它们进行归一化处理，并用归一化之后的结果来计算样本之间的距离，用SQL完成 $k$-means算法，指定 $k=3$。
